@@ -1,54 +1,266 @@
 title: KH1 Sora KH3 Outfit
-description: KH1 Sora, but in his KH3 outfit. Original model & textures created by DA, & higher poly model from Mikote111.
+description: Sora from Kingdom Hearts I, but with his outfit from Kingdom Hearts III. Original model & textures created by DA, & higher poly model from Mikote111.
 assets:
-- name: obj\PO06_PLAYER.mdlx
-  method: copy
+- name: obj/P_EX100.mdlx
+  method: binarc
   source:
-  - name: obj\PO06_PLAYER.mdlx
-- name: obj\PO07_PLAYER.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/P_EX100_BTLF.mdlx
+  method: binarc
   source:
-  - name: obj\PO07_PLAYER.mdlx
-- name: obj\PO08_PLAYER.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Valor.tim
+- name: obj/P_EX100_HTLF.mdlx
+  method: binarc
   source:
-  - name: obj\PO08_PLAYER.mdlx
-- name: obj\P_EX100.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Anti.tim
+- name: obj/P_EX100_KH1F.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100.mdlx
-- name: obj\P_EX100_AL_CARPET.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Limit.tim
+- name: obj/P_EX100_MAGF.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_AL_CARPET.mdlx
-- name: obj\P_EX100_BTLF.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Wisdom.tim
+- name: obj/P_EX100_TRIF.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_BTLF.mdlx
-- name: obj\P_EX100_HTLF.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Trinity.tim
+- name: obj/P_EX100_ULTF.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_HTLF.mdlx
-- name: obj\P_EX100_KH1F.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Final.tim
+- name: obj/P_EX100_AL_CARPET.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_KH1F.mdlx
-- name: obj\P_EX100_MAGF.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/PO06_PLAYER.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_MAGF.mdlx
-- name: obj\P_EX100_TRIF.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/PO07_PLAYER.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_TRIF.mdlx
-- name: obj\P_EX100_ULTF.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/PO08_PLAYER.mdlx
+  method: binarc
   source:
-  - name: obj\P_EX100_ULTF.mdlx
-- name: obj\WM_EX100.mdlx
-  method: copy
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/WM_EX100.mdlx
+  method: binarc
   source:
-  - name: obj\WM_EX100.mdlx
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/P_EX100_WM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base.tim
+- name: obj/P_EX100_NM.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Base_NM.tim
+- name: obj/P_EX100_NM_BTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Valor_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Valor_NM.tim
+- name: obj/P_EX100_NM_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: HTLF_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Anti_NM.tim
+- name: obj/P_EX100_NM_KH1F.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Limit_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Limit_NM.tim
+- name: obj/P_EX100_NM_MAGF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Wisdom_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Wisdom_NM.tim
+- name: obj/P_EX100_NM_TRIF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Trinity_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Trinity_NM.tim
+- name: obj/P_EX100_NM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Final_NM.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: Final_NM.tim
 - name: remastered\obj\PO06_PLAYER.mdlx\-0.dds
   platform: pc
   method: copy
@@ -882,4 +1094,3 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM.a.us\-8.dds
-
