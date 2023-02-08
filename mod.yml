@@ -1115,6 +1115,19 @@ assets:
     method: copy
     source:
     - name: XMSora.tim
+- name: obj/P_EX100_XM_HTLF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: XMSora_HTLF.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: XMSora_HTLF.tim
 #XM Sora: Remastered Textures
 - name: remastered\obj\P_EX100_XM.mdlx\-0.dds
   multi:
@@ -1182,3 +1195,23 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_XM.mdlx\-5.dds
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-0.dds
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-1.dds
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-2.dds
+- name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM_HTLF.mdlx\-3.dds
