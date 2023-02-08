@@ -1094,3 +1094,91 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_NM.a.us\-8.dds
+
+#KH1 Sora: Christmas Town model
+- name: obj/P_EX100_XM.mdlx
+  multi:
+  - name: obj/P_EX100_XM_BTLF.mdlx
+  - name: obj/P_EX100_XM_MAGF.mdlx
+  - name: obj/P_EX100_XM_KH1F.mdlx
+  - name: obj/P_EX100_XM_TRIF.mdlx
+  - name: obj/P_EX100_XM_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: XMSora.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: XMSora.tim
+#XM Sora: Remastered Textures
+- name: remastered\obj\P_EX100_XM.mdlx\-0.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-0.dds
+- name: remastered\obj\P_EX100_XM.mdlx\-1.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-1.dds
+- name: remastered\obj\P_EX100_XM.mdlx\-2.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-2.dds
+- name: remastered\obj\P_EX100_XM.mdlx\-3.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-3.dds
+- name: remastered\obj\P_EX100_XM.mdlx\-4.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-4.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-4.dds
+- name: remastered\obj\P_EX100_XM.mdlx\-5.dds
+  multi:
+  - name: remastered\obj\P_EX100_XM_BTLF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_XM_MAGF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_XM_KH1F.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_XM_TRIF.mdlx\-5.dds
+  - name: remastered\obj\P_EX100_XM_ULTF.mdlx\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_XM.mdlx\-5.dds
