@@ -1203,3 +1203,128 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_XM_HTLF.a.us\-3.dds
+
+#KH1 Sora: Timeless River model. PC ONLY. Model has oddities on PS2, as it was built with OpenKH's MDLX Importer.
+- name: obj/P_EX100_WI.mdlx
+  platform: pc
+  multi:
+  - name: obj/P_EX100_WI_BTLF.mdlx
+  - name: obj/P_EX100_WI_MAGF.mdlx
+  - name: obj/P_EX100_WI_KH1F.mdlx
+  - name: obj/P_EX100_WI_TRIF.mdlx
+  - name: obj/P_EX100_WI_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraWIForms.tim
+- name: obj/P_EX100_WI_HTLF.mdlx
+  platform: pc
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora_WI.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraWIAnti.tim
+- name: obj/P_EX100_WI.mdlx
+  platform: ps2
+  multi:
+  - name: obj/P_EX100_WI_BTLF.mdlx
+  - name: obj/P_EX100_WI_MAGF.mdlx
+  - name: obj/P_EX100_WI_KH1F.mdlx
+  - name: obj/P_EX100_WI_TRIF.mdlx
+  - name: obj/P_EX100_WI_ULTF.mdlx
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora_WIPS2.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraWIForms.tim
+- name: obj/P_EX100_WI_HTLF.mdlx
+  platform: ps2
+  method: binarc
+  source:
+  - name: p_ex
+    type: model
+    method: copy
+    source:
+    - name: Sora_WIPS2.model
+  - name: tim_
+    type: modeltexture
+    method: copy
+    source:
+    - name: SoraWIAnti.tim
+#Timeless River KH1 Sora: Remastered Textures
+- name: remastered\obj\P_EX100_WI.mdlx\-0.dds
+  multi:
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-0.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI.mdlx\-0.dds
+- name: remastered\obj\P_EX100_WI.mdlx\-1.dds
+  multi:
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-1.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI.mdlx\-1.dds
+- name: remastered\obj\P_EX100_WI.mdlx\-2.dds
+  multi:
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-2.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI.mdlx\-2.dds
+- name: remastered\obj\P_EX100_WI.mdlx\-3.dds
+  multi:
+  - name: remastered\obj\P_EX100_WI_BTLF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_MAGF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_KH1F.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_TRIF.mdlx\-3.dds
+  - name: remastered\obj\P_EX100_WI_ULTF.mdlx\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI.mdlx\-3.dds
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-0.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-0.dds
+- name: remastered\obj\P_EX100_WI_HTLF.mdlx\-1.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-1.dds
