@@ -1328,3 +1328,40 @@ assets:
   method: copy
   source:
   - name: remastered\obj\P_EX100_WI_HTLF.mdlx\-1.dds
+
+#Timeless River: Portraits
+- name: remastered\obj\P_EX100_WI.a.us\-8.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI.a.us\-8.dds
+- name: remastered\obj\P_EX100_WI_BTLF.a.us\-4.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_BTLF.a.us\-4.dds
+- name: remastered\obj\P_EX100_WI_HTLF.a.us\-3.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_HTLF.a.us\-3.dds
+- name: remastered\obj\P_EX100_WI_KH1F.a.us\-9.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_KH1F.a.us\-9.dds
+- name: remastered\obj\P_EX100_WI_MAGF.a.us\-2.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_MAGF.a.us\-2.dds
+- name: remastered\obj\P_EX100_WI_TRIF.a.us\-5.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_TRIF.a.us\-5.dds
+- name: remastered\obj\P_EX100_WI_ULTF.a.us\-10.dds
+  platform: pc
+  method: copy
+  source:
+  - name: remastered\obj\P_EX100_WI_ULTF.a.us\-10.dds
